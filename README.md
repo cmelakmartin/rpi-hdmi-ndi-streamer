@@ -33,9 +33,9 @@ chmod +x start-ndi.sh
 ```bash
 v4l2-ctl --list-devices
 ```
-- [ ] You should see `/dev/video0` or similar.
+- [ ] You should see `/dev/video0` or similar. Edit in `ndi-config.env` if necessary.
 
-- [ ] Edit `ndi-config.env` to match your resolution, FPS, etc. Don't be shy to scale up if you have powerful RPi. 
+- [ ] **Edit** `ndi-config.env` to match your resolution, FPS, etc. Don't be shy to scale up if you have powerful RPi. 
 
 ### 3. Install v4l2loopback + v4l2ndi + ffmpeg
 
