@@ -1,0 +1,14 @@
+[Unit]
+Description=HDMI to NDI Stream (RPi streamer-certified™)
+After=network-online.target
+
+[Service]
+ExecStart=%h/rpi-ndi-streamer/start-ndi.sh
+WorkingDirectory=%h/rpi-ndi-streamer
+Restart=always
+RestartSec=5
+User=%u
+Group=%u
+
+[Install]
+WantedBy=multi-user.target
