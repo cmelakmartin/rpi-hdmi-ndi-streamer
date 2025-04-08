@@ -1,6 +1,8 @@
 # 🧢 RPi HDMI to NDI Streamer [Streamer-Certified™]
 
-![Streamer Certified](https://img.shields.io/badge/NDI-ready-brightgreen?style=flat-square)
+![NDI Ready](https://img.shields.io/badge/NDI-ready-brightgreen?style=flat-square)
+![Works with vMix](https://img.shields.io/badge/vMix-compatible-blue?style=flat-square)
+![Works with OBS](https://img.shields.io/badge/OBS-compatible-success?style=flat-square)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
 
 > Turn your Raspberry Pi into a plug-and-play NDI encoder using HDMI capture + ffmpeg + v4l2loopback + v4l2ndi.  
