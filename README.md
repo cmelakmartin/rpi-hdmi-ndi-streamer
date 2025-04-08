@@ -15,7 +15,7 @@
 
 ## ✅ Features
 - 1280x720 @ 25fps (configurable)
-- Low-latency (<1s)
+- Low-latency (<2s)
 - Auto-start on boot
 - NDI stream appears in vMix, OBS, etc.
 
