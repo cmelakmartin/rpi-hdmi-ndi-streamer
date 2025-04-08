@@ -1,8 +1,11 @@
-# RPi HDMI to NDI Grabber 🎥📡
-![Streamer Certified](https://img.shields.io/badge/NDI-ready-brightgreen?style=flat-square)
-> Hardware HDMI → NDI encoder on Raspberry Pi with <2s latency.
+# 🧢 RPi HDMI to NDI Streamer [Streamer-Certified™]
 
-Turn your Raspberry Pi into a low-latency NDI encoder using:
+![Streamer Certified](https://img.shields.io/badge/NDI-ready-brightgreen?style=flat-square)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
+
+> Turn your Raspberry Pi into a plug-and-play NDI encoder using HDMI capture + ffmpeg + v4l2loopback.  
+> Auto-starts on boot. <2s latency. Zero nonsense. All signal. 🎥📡
+
 
 - HDMI capture stick
 - v4l2loopback
