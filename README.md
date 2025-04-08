@@ -3,14 +3,8 @@
 ![Streamer Certified](https://img.shields.io/badge/NDI-ready-brightgreen?style=flat-square)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
 
-> Turn your Raspberry Pi into a plug-and-play NDI encoder using HDMI capture + ffmpeg + v4l2loopback.  
+> Turn your Raspberry Pi into a plug-and-play NDI encoder using HDMI capture + ffmpeg + v4l2loopback + v4l2ndi.  
 > Auto-starts on boot. <2s latency. Zero nonsense. All signal. 🎥📡
-
-
-- HDMI capture stick
-- v4l2loopback
-- ffmpeg
-- v4l2ndi
 
 ## 👉Tested on
 	- RPi 3B 
