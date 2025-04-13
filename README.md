@@ -49,11 +49,11 @@ sudo apt install v4l2loopback-utils ffmpeg
 ### 4. Enable the systemd service
 
 ```bash
-sudo cp ndi-grabber.service /etc/systemd/system/
-sudo systemctl daemon-reexec
-sudo systemctl daemon-reload
-sudo systemctl enable ndi-grabber.service
-sudo systemctl start ndi-grabber.service
+mkdir -p ~/.config/systemd/user
+cp ndi-grabber.service ~/.config/systemd/user/
+systemctl --user daemon-reload
+systemctl --user enable ndi-grabber.service
+systemctl --user start ndi-grabber.service
 ```
 
 ## 🧢 Credits
