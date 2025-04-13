@@ -27,6 +27,10 @@
 git clone https://github.com/cmelakmartin/rpi-hdmi-ndi-streamer.git
 cd rpi-hdmi-ndi-streamer
 chmod +x start-ndi.sh
+cd ~
+git clone https://github.com/lplassman/V4L2-to-NDI.git
+cd V4L2-to-NDI
+sudo bash ./easy-install-rpi-aarch64.sh
 ```
 
 ### 2. Customize your configuration
