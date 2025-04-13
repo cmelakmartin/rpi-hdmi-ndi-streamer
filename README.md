@@ -25,7 +25,7 @@
 
 ```bash
 git clone https://github.com/cmelakmartin/rpi-hdmi-ndi-streamer.git
-cd rpi-ndi-streamer
+cd rpi-hdmi-ndi-streamer
 chmod +x start-ndi.sh
 ```
 
