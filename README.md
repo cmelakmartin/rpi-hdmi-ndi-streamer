@@ -31,7 +31,7 @@ chmod +x start-ndi.sh
 
 ### 2. Customize your configuration
 
-- [ ] Make sure your grabber is detected:
+- [ ] Connect the grabber and make sure it is detected:
 ```bash
 v4l2-ctl --list-devices
 ```
@@ -42,6 +42,7 @@ v4l2-ctl --list-devices
 ### 3. Install v4l2loopback + v4l2ndi + ffmpeg
 
 ```bash
+sudo apt-get update
 sudo apt install v4l2loopback-utils ffmpeg
 ```
 
