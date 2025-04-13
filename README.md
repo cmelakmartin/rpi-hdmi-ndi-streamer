@@ -9,13 +9,13 @@
 > Auto-starts on boot. <2s latency. Zero nonsense. All signal. 🎥📡
 
 ## 👉Tested on
-	- RPi 3B 
+	- RPi 3B, RPi 4B
 	- PremiumCord HDMI capture/grabber
 
 
 ## ✅ Features
-- 1280x720 @ 25fps (configurable)
-- Low-latency (<2s)
+- 1280x720 @ 25fps (configurable, RPi 4 1920x1080 easily)
+- Low-latency (RPi 3B <2s, RPi 4B <1s)
 - Auto-start on boot
 - NDI stream appears in vMix, OBS, etc.
 
