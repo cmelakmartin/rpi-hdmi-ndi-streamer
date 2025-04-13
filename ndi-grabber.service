@@ -3,8 +3,8 @@ Description=HDMI to NDI Stream (RPi streamer-certified™)
 After=network-online.target
 
 [Service]
-ExecStart=%h/rpi-ndi-streamer/start-ndi.sh
-WorkingDirectory=%h/rpi-ndi-streamer
+ExecStart=%h/rpi-hdmi-ndi-streamer/start-ndi.sh
+WorkingDirectory=%h/rpi-hdmi-ndi-streamer
 Restart=always
 RestartSec=5
 User=%u
