@@ -24,7 +24,7 @@
 ### 1. Clone this repo to your Pi
 
 ```bash
-git clone https://github.com/YOURUSERNAME/rpi-ndi-streamer.git
+git clone https://github.com/cmelakmartin/rpi-ndi-streamer.git
 cd rpi-ndi-streamer
 chmod +x start-ndi.sh
 ```
