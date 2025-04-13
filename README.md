@@ -62,4 +62,4 @@ systemctl --user start ndi-grabber.service
 
 ## 🧢 Credits
 
-Built with love by a Raspberry Pi, HDMI stick, ChatGPT and one very persistent command-line warriror. Streamer-certified™.
+Built with love by a Raspberry Pi, HDMI stick, ChatGPT and one very persistent command-line warrior. Streamer-certified™.
