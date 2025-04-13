@@ -7,8 +7,6 @@ ExecStart=%h/rpi-hdmi-ndi-streamer/start-ndi.sh
 WorkingDirectory=%h/rpi-hdmi-ndi-streamer
 Restart=always
 RestartSec=5
-User=%u
-Group=%u
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
